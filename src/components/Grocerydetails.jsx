@@ -13,7 +13,7 @@ const GroceryDetails = () => {
                 {/* map through the data and display the cards */}
                 {data.map((item)=>(
                     <>
-                    <div style={{display:'grid',gridTemplateColumns: '2,1fr'}}>
+                    <div>
                         <p>{item.discount}</p>
                     <img src={item.imgURL} alt={item.title} />
                     <h4>{item.title}</h4>
