@@ -1,5 +1,8 @@
 // reusable card component
-const GroceryItem = () => {
-  return <></>;
+const GroceryItem = (props) => {
+
+  return <>
+  
+  </>;
 };
 export default GroceryItem;
