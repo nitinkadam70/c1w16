@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import GroceryDetails from './components/Grocerydetails';
+import TicTacToe from './Tic-Tac-Toe/TicTacTow';
+
+
 
 function App() {
   return (
     <div className="App">
-     <GroceryDetails/>
+<TicTacToe/>
     </div>
   );
 }
